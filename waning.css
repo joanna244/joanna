@@ -92,6 +92,20 @@
     padding: 20px; /* Optional: Adds padding inside the container */
     border-radius: 8px; /* Optional: Rounds the corners of the container */
 }
+
+#aboutme {
+        height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutme .card-body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
 @media (max-width: 768px) {
     .profile-section {
         flex-direction: column; /* Stack the profile elements on smaller screens */
@@ -106,6 +120,7 @@
         margin-bottom: 10px; /* Add spacing between buttons */
     }
 }
+
 
 @media (max-width: 576px) {
     .img-fluid {
